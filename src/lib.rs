@@ -312,7 +312,7 @@
 //! to construct a value at runtime which is known to not contravene
 //! it.
 #![no_std]
-#![feature(const_fn)]
+#![feature(const_fn_trait_bound)]
 
 #[allow(unused)]
 #[macro_use]
